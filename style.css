@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #3dbeff; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    position: absolute;
+    padding: 2.2rem;
+}
+
+.logo>* {
+    width: 150px;
+    height: auto;
+}
+
+.menu {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    float: right;
+    padding: 0 3vw;
+    height: 0;
+    /* font-family: 'Fraunces', serif; */
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu li {
+    position: relative;
+    display: inline;
+    padding: 2.5rem 1.5rem;
+    top: 2.5rem;
+    z-index: 20;
+}
+
+
+/* .section-one {
+    background-image: url('images/desktop/image-header.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
+} */
+
+.text-middle {
+    position: absolute;
+    color: #fff;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 7px;
+    z-index: 10;
+}
+
+.section-one>img {
+    width: 100vw;
+    height: auto;
+    z-index: -50;
+}
+
+
+/* .arrow-down {
+    position: absolute;
+    height: 120px;
+    top: 410px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-down img {
+    position: relative;
+} */
+
+section,
+.section {
+    width: 100vw;
+    margin: 0;
+}
+
+.text-box {
+    padding: 8rem 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text {
+    font-family: 'Barlow', sans-serif;
+    color: #858490;
+}
+
+.title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: #24303d;
+}
+
+.image-box {
+    padding: 0;
+}
+
+.image-box img {
+    width: 100%;
+    object-fit: cover;
+    height: 540px;
+}
+
+.btn-lm a {
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: #24303d;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.btn-lm {
+    transition: border-bottom 80ms;
+    width: 134px;
+    height: 30px;
+}
+
+.btn-lm:hover {
+    border-bottom: 7px solid yellow;
+    border-radius: 3px;
+}
+
+.p.btn-lm:hover {
+    border-bottom: 7px solid #fd7564;
+}
+
+.float-text {
+    position: absolute;
+    width: 50vw;
+    height: 540px;
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
